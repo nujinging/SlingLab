@@ -1,0 +1,32 @@
+/* 레이어 팝업 헤더 */
+.layer_header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top:36px;
+  padding: 24px 0;
+  background: #fff;
+  z-index: 100;
+  box-sizing:border-box;
+  .tit {
+    font-size:22px;
+  }
+  .btn_back {
+    position:absolute;
+    top:14px;
+    left:0;
+  }
+}
+
+@media screen and (max-width:1080px) {
+  .layer_header {
+    display:flex;
+    margin:0;
+    padding: 16px 0;
+    .tit {
+      font-size:16px;
+    }
+  }
+}

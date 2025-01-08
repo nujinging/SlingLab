@@ -1,0 +1,31 @@
+.footer {
+  margin-top:40px;
+  padding:40px 0;
+  border-top:1px solid var(--primary-60);
+  ul {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:0 16px;
+    li {
+      .item {
+        font-size:14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1080px) {
+  .footer {
+    margin:40px 0 65px;
+    padding:16px 0 24px;
+    ul {
+      gap:0 8px;
+      li {
+        .item {
+          font-size:12px;
+        }
+      }
+    }
+  }
+}
