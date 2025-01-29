@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="" />
+    <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="컴포넌트 정리">
+      <change afterPath="$PROJECT_DIR$/src/components/AddComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BtnBack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DardMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GoogleLoginButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InputComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LayerHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfileHistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextareaComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserIdxHigher.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +27,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nujinging/SlingLab.git",
+    "accountId": "37c69daf-6ff9-4d78-8c2b-51471deb9da9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2r3pjQScm9LOdRtgR8QPhAVNR8Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +45,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/누징/WebstormProjects/SlingLab/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -31,6 +57,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,10 +74,24 @@
       <updated>1735797749500</updated>
       <workItem from="1735797755025" duration="118000" />
       <workItem from="1735797958759" duration="3459000" />
+      <workItem from="1737981124524" duration="371000" />
     </task>
+    <task id="LOCAL-00001" summary="컴포넌트 정리">
+      <option name="closed" value="true" />
+      <created>1737981492350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737981492350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="컴포넌트 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="컴포넌트 정리" />
   </component>
 </project>
