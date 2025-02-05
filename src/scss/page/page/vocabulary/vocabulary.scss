@@ -1,0 +1,183 @@
+.voca_wrap {
+  min-height:100vh;
+  padding:80px 20px 120px;
+  // 단어장 상단
+  .voca_top {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    margin-bottom:24px;
+    box-sizing:border-box;
+    .voca_tit {
+      font-size:30px;
+      font-weight:700;
+    }
+    .voca_box {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      .btn_add_word {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+          width:150px;
+        height:34px;
+        color:#fff;
+        font-size:14px;
+        border:1px solid var(--primary-30);
+        border-radius:4px;
+        background:var(--primary-30);
+      }
+    }
+  }
+
+  // 단어장 컨텐츠
+  .voca_con {
+    .voca_desc {
+      color:#5c667b;
+      margin:36px 0 24px;
+      font-size:16px;
+    }
+    .voca_list {
+      position:relative;
+      display:flex;
+      flex-wrap:wrap;
+      gap: 0 60px;
+      padding:24px 36px;
+      box-shadow:0 1px 12px -8px #000;
+      border-radius:12px;
+      background:#fff;
+      &:before {
+        content:'';
+        position:absolute;
+        top:0;
+        left:50%;
+        display:inline-block;
+        width:1px;
+        height:100%;
+        background:#e0e5ed;
+      }
+      .list_item {
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        width:calc(50% - 30px);
+        padding:8px 0;
+        &+.list_item {
+          border-top:1px solid #e0e5ed;
+        }
+        &:nth-child(2) {
+          border-top:none;
+        }
+        .link {
+          width:100%;
+          padding:6px 0;
+          font-size:16px;
+        }
+        .content_count {
+          display:flex;
+          align-items:center;
+          height:26px;
+          padding:0 8px;
+          font-size:14px;
+          border-radius:4px;
+          background:#f4f6fa;
+        }
+      }
+    }
+
+      .list_btm {
+          .btn_more_word {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              height: 34px;
+              padding: 0 24px;
+              color: #fff;
+              font-size: 14px;
+              border: 1px solid var(--primary-30);
+              border-radius: 4px;
+              background: var(--primary-30);
+          }
+      }
+  }
+
+}
+
+@media screen and (max-width:1080px) {
+  .voca_wrap {
+    padding:32px 0 140px;
+    .container {
+      display:block;
+      padding:0;
+    }
+    // 단어장 상단
+    .voca_top {
+      width:100%;
+      padding:0 20px;
+      .voca_tit {
+        font-size:16px;
+      }
+      .voca_box {
+        .btn_add_word {
+          position:fixed;
+          right:24px;
+          bottom:100px;
+          display:inline-flex;
+          align-items:center;
+          justify-content:center;
+          flex-shrink:0;
+          padding:0;
+          width:40px;
+          height:40px;
+          border-radius:50%;
+          background:var(--primary-30) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Cpath opacity='0.15' d='M4.33301 21.6667H8.66634L19.4997 10.8333L15.1663 6.5L4.33301 17.3333V21.6667Z' fill='white'/%3E%3Cpath d='M19.4997 10.8333L22.7497 7.58333L18.4163 3.25L15.1663 6.5M19.4997 10.8333L8.66634 21.6667H4.33301V17.3333L15.1663 6.5M19.4997 10.8333L15.1663 6.5' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center no-repeat;
+          span {
+            display:none;
+          }
+        }
+      }
+    }
+
+    // 단어장 컨텐츠
+    .voca_con {
+      width:100%;
+      margin:0;
+        .swiper-wrapper {
+            justify-content:flex-start;
+        }
+      .tab_box {
+        padding:0 20px;
+      }
+      .voca_list {
+        margin:0 24px;
+        padding:16px 24px;
+        &:before {
+          content:none;
+        }
+        .list_item {
+          width:100%;
+          .link {
+            font-size:12px;
+          }
+          .content_count {
+            height:20px;
+            font-size:12px;
+          }
+          &:nth-child(2) {
+            border-top:1px solid #e0e5ed;
+          }
+        }
+      }
+      .voca_desc {
+        margin:24px 0 16px;
+        padding:0 20px;
+        font-size:14px;
+      }
+      .list_box {
+        box-shadow:none;
+      }
+    }
+  }
+}
