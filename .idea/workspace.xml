@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="세팅">
+    <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="[Chore] API 추가">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/community/Community.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/community/PostAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/community/PostInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/main/GoogleLoginButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/main/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/profile/MyAddList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/profile/MyCommentList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/profile/MyPostList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/profile/MyScrapeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/profile/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/vocabulary/Vocabulary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/vocabulary/WordAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/vocabulary/WordInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/community/community.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/community/postAdd.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/community/postInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/main/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/profile/myAddList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/profile/profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/page/page/profile/scrapeList.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,55 +37,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;nujinging&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nujinging/SlingLab.git&quot;,
-    &quot;accountId&quot;: &quot;37c69daf-6ff9-4d78-8c2b-51471deb9da9&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
   <component name="ProjectId" id="2r3pjQScm9LOdRtgR8QPhAVNR8Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/누징/WebstormProjects/SlingLab",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yujin/Desktop/SlingLab&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\누징\WebstormProjects\SlingLab" />
-      <recent name="C:\Users\누징\WebstormProjects\SlingLab\src" />
-    </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
-      </set>
-    </attachedChunks>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,43 +66,76 @@
       <updated>1735797749500</updated>
       <workItem from="1735797755025" duration="118000" />
       <workItem from="1735797958759" duration="3459000" />
-      <workItem from="1737981124524" duration="371000" />
-      <workItem from="1738157188362" duration="562000" />
-      <workItem from="1738300019461" duration="3328000" />
+      <workItem from="1735805244503" duration="16773000" />
+      <workItem from="1736238322001" duration="1864000" />
+      <workItem from="1738642919752" duration="338000" />
+      <workItem from="1738643279519" duration="6319000" />
+      <workItem from="1738822730252" duration="599000" />
+      <workItem from="1739169447140" duration="367000" />
     </task>
-    <task id="LOCAL-00001" summary="컴포넌트 정리">
+    <task id="LOCAL-00001" summary="[Design] 이미지 폴더 생성">
       <option name="closed" value="true" />
-      <created>1737981492350</created>
+      <created>1735805286172</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1737981492350</updated>
+      <updated>1735805286172</updated>
     </task>
-    <task id="LOCAL-00002" summary="세팅">
+    <task id="LOCAL-00002" summary="[Chore] 페이지 추가">
       <option name="closed" value="true" />
-      <created>1738157234263</created>
+      <created>1735905096945</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1738157234263</updated>
+      <updated>1735905096946</updated>
     </task>
-    <task id="LOCAL-00003" summary="세팅">
+    <task id="LOCAL-00003" summary="[Chore] 모달 추가">
       <option name="closed" value="true" />
-      <created>1738300172481</created>
+      <created>1736238346818</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1738300172481</updated>
+      <updated>1736238346818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[Chore] scss 추가">
+      <option name="closed" value="true" />
+      <created>1736324067564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736324067564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Chore] API 추가">
+      <option name="closed" value="true" />
+      <created>1736412626277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736412626277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="컴포넌트 정리" />
-    <MESSAGE value="세팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="세팅" />
+    <MESSAGE value="[Design] 이미지 폴더 생성" />
+    <MESSAGE value="[Chore] 페이지 추가" />
+    <MESSAGE value="[Chore] 모달 추가" />
+    <MESSAGE value="[Chore] scss 추가" />
+    <MESSAGE value="[Chore] API 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Chore] API 추가" />
   </component>
 </project>
