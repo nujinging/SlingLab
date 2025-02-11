@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="[Chore] API 추가">
-      <change afterPath="$PROJECT_DIR$/src/page/intro/Intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/Layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/community/Community.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/community/PostAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/community/PostInfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/main/GoogleLoginButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/main/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyAddList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyCommentList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyPostList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyScrapeList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/profile/Profile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/vocabulary/Vocabulary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/vocabulary/WordAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/page/vocabulary/WordInfo.js" beforeDir="false" />
-    </list>
+    <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="[Fix] 버전 맞추기" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +52,7 @@
       <workItem from="1739249215982" duration="58000" />
       <workItem from="1739249297138" duration="82000" />
       <workItem from="1739249389027" duration="66000" />
+      <workItem from="1739249510886" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="[Design] 이미지 폴더 생성">
       <option name="closed" value="true" />
@@ -110,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736412626277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Fix] 버전 맞추기">
+      <option name="closed" value="true" />
+      <created>1739250022575</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739250022575</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[Fix] 버전 맞추기">
+      <option name="closed" value="true" />
+      <created>1739250053472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739250053473</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +133,7 @@
     <MESSAGE value="[Chore] 모달 추가" />
     <MESSAGE value="[Chore] scss 추가" />
     <MESSAGE value="[Chore] API 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Chore] API 추가" />
+    <MESSAGE value="[Fix] 버전 맞추기" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] 버전 맞추기" />
   </component>
 </project>
