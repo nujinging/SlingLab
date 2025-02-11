@@ -5,29 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ba5ded-41a0-401c-bbc7-2d161ecd027b" name="Changes" comment="[Chore] API 추가">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/community/Community.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/community/PostAdd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/community/PostInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/main/GoogleLoginButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/profile/MyAddList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/profile/MyCommentList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/profile/MyPostList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/profile/MyScrapeList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/vocabulary/Vocabulary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/vocabulary/WordAdd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/vocabulary/WordInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/community/community.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/community/postAdd.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/community/postInfo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/main/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/profile/myAddList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/profile/profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/page/page/profile/scrapeList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/intro/Intro.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/community/Community.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/community/PostAdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/community/PostInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/main/GoogleLoginButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/main/Main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyAddList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyCommentList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyPostList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/profile/MyScrapeList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/profile/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/vocabulary/Vocabulary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/vocabulary/WordAdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/page/vocabulary/WordInfo.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +65,10 @@
       <workItem from="1738643279519" duration="6319000" />
       <workItem from="1738822730252" duration="599000" />
       <workItem from="1739169447140" duration="367000" />
+      <workItem from="1739237610944" duration="783000" />
+      <workItem from="1739249215982" duration="58000" />
+      <workItem from="1739249297138" duration="82000" />
+      <workItem from="1739249389027" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="[Design] 이미지 폴더 생성">
       <option name="closed" value="true" />
