@@ -1,0 +1,37 @@
+.intro_wrap {
+  background:#F8EDEB;
+  .intro_section {
+    display:flex;
+    align-items:center;
+    height:100vh;
+    .intro_box {
+      h2 {
+        margin-bottom:48px;
+        color:#6E34F8;
+        font-size:32px;
+        line-height:48px;
+        font-family: 'SBAggroM', 'Noto Sans KR', sans-serif;
+      }
+      p {
+        color:#FF4DA6;
+        font-size:24px;
+        line-height:30px;
+        font-family: 'SBAggroL', 'Noto Sans KR', sans-serif;
+        &+p {
+          margin-top:20px;
+        }
+      }
+      strong {
+        display:block;
+        margin-top:48px;
+        color:#FFD500;
+        font-size:24px;
+        line-height:30px;
+        font-family: 'SBAggroL', 'Noto Sans KR', sans-serif;
+      }
+      em {
+        color:#00C49A;
+      }
+    }
+  }
+}
