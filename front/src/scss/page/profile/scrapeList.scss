@@ -1,0 +1,21 @@
+.scrap_list_wrap {
+  min-height: calc(100vh - 40px);
+  padding: 0 20px 140px;
+  .container {
+    margin-top:40px;
+  }
+  .content_none {
+    a {
+      margin:16px auto 0;
+    }
+  }
+}
+
+
+@media screen and (max-width:1080px) {
+  .scrap_list_wrap {
+    .container {
+      padding:0
+    }
+  }
+}

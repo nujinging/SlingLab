@@ -1,0 +1,269 @@
+.profile_wrap {
+  min-height:calc(100vh - 40px);
+  padding:20px 20px 120px;
+  // 정보
+  .user_info {
+    .info_name {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      .name {
+        color:var(--primary);
+        font-size:28px;
+        font-weight:700;
+      }
+    }
+    .info_desc {
+      display:flex;
+      align-items:center;
+      justify-content:space-around;
+      margin:40px 0 52px;
+      padding:24px;
+      border:1px solid var(--primary-50);
+      border-radius:12px;
+      text-align:right;
+      li {
+        color:var(--primary);
+        span {
+          display:block;
+          text-align:center;
+          color: #5c667b;
+          font-size:14px;
+          &.count {
+            color:#1d1d1f;
+            font-size:16px;
+            font-weight:700;
+          }
+        }
+      }
+    }
+    .follower_box {
+      display:flex;
+      justify-content: end;
+      .btn_followers {
+        display:inline-flex;
+        align-items:center;
+        width:36px;
+        height:36px;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M29.9404 7H6.05959C4.98292 7 3.95035 7.42214 3.18903 8.17355C2.42771 8.92496 2 9.94411 2 11.0068V21.0261C2 23.24 3.81653 25.0378 5.80367 25.0378H12.1515C14.7006 25.0378 16.3867 29 17.872 29C19.3574 29 21.3194 25.0378 23.6077 25.0378H29.9404C31.0175 25.0365 32.0501 24.6133 32.8113 23.8611C33.5725 23.1089 34 22.0892 34 21.0261V11.0068C33.9987 9.94451 33.5705 8.92613 32.8095 8.175C32.0485 7.42387 31.0167 7.00131 29.9404 7V7Z' fill='%23E4E4E4'/%3E%3Cpath d='M20.7977 11.0562C21.3309 11.0552 21.8532 11.2047 22.3031 11.4871C23.0202 11.9781 23.5294 12.7121 23.7338 13.5495C23.9383 14.3869 23.8238 15.2693 23.4121 16.0288C22.8049 17.1679 20.2808 19.2976 18.1181 20.9072C18.09 20.9304 18.0543 20.9428 18.0177 20.9419C17.9812 20.9419 17.9458 20.9297 17.9174 20.9072C15.7596 19.2976 13.2305 17.1679 12.6283 16.0288C12.2155 15.2695 12.1004 14.3868 12.305 13.5491C12.5095 12.7115 13.0194 11.9774 13.7373 11.4871C14.1865 11.2032 14.7093 11.0535 15.2427 11.0562C15.6693 11.0171 16.0994 11.0709 16.5026 11.2138C16.9058 11.3567 17.2723 11.5853 17.5761 11.8834L18.0428 12.5124L18.5095 11.8834C18.8093 11.5798 19.1752 11.3475 19.5795 11.2042C19.9838 11.0609 20.4158 11.0103 20.8429 11.0562' fill='white'/%3E%3C/svg%3E");
+        &.active {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M29.9404 7H6.05959C4.98292 7 3.95035 7.42214 3.18903 8.17355C2.42771 8.92496 2 9.94411 2 11.0068V21.0261C2 23.24 3.81653 25.0378 5.80367 25.0378H12.1515C14.7006 25.0378 16.3867 29 17.872 29C19.3574 29 21.3194 25.0378 23.6077 25.0378H29.9404C31.0175 25.0365 32.0501 24.6133 32.8113 23.8611C33.5725 23.1089 34 22.0892 34 21.0261V11.0068C33.9987 9.94451 33.5705 8.92613 32.8095 8.175C32.0485 7.42387 31.0167 7.00131 29.9404 7Z' fill='%23F05161'/%3E%3Cpath d='M20.7977 11.0562C21.3309 11.0552 21.8532 11.2047 22.3031 11.4871C23.0202 11.9781 23.5294 12.7121 23.7338 13.5495C23.9383 14.3869 23.8238 15.2693 23.4121 16.0288C22.8049 17.1679 20.2808 19.2976 18.1181 20.9072C18.09 20.9304 18.0543 20.9428 18.0177 20.9419C17.9812 20.9419 17.9458 20.9297 17.9174 20.9072C15.7596 19.2976 13.2305 17.1679 12.6283 16.0288C12.2155 15.2695 12.1004 14.3868 12.305 13.5491C12.5095 12.7115 13.0194 11.9774 13.7373 11.4871C14.1865 11.2032 14.7093 11.0535 15.2427 11.0562C15.6693 11.0171 16.0994 11.0709 16.5026 11.2138C16.9058 11.3567 17.2723 11.5853 17.5761 11.8834L18.0428 12.5124L18.5095 11.8834C18.8093 11.5798 19.1752 11.3475 19.5795 11.2042C19.9838 11.0609 20.4158 11.0103 20.8429 11.0562' fill='white'/%3E%3C/svg%3E");
+        }
+      }
+    }
+    .info_visit {
+      font-size:16px;
+      strong {
+        color:#f09f2c;
+      }
+    }
+  }
+  // 출석체크
+  .user_daily {
+    margin: 60px 0;
+    .daily_tit {
+      color:#1d1d1f;
+      font-size:18px;
+        font-weight:600;
+    }
+    .daily_list {
+      display: flex;
+      align-items: center;
+      margin-top:24px;
+      li {
+        width: 100%;
+
+        .day {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          width: 42px;
+          height: 42px;
+          color: #5c667b;
+          font-size:14px;
+          border-radius: 50%;
+          background:#f4f6fa;
+
+          &.check {
+            background: #f05161;
+
+            span {
+              display: none;
+            }
+
+            &:after {
+              display: block;
+              width: 20px;
+              height: 20px;
+              background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='16' viewBox='0 0 17 16' fill='none'%3E%3Cpath d='M8.26475 3.01932C9.83075 1.61332 12.2507 1.65999 13.7594 3.17132C15.2674 4.68332 15.3194 7.09132 13.9167 8.66199L8.26342 14.3233L2.61142 8.66199C1.20875 7.09132 1.26142 4.67932 2.76875 3.17132C4.27875 1.66199 6.69408 1.61132 8.26475 3.01932V3.01932Z' fill='white'/%3E%3C/svg%3E") center / 100% no-repeat;
+              content: '';
+            }
+          }
+        }
+      }
+    }
+  }
+  // 히스토리
+  .user_history {
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    .history_box {
+      width:calc(50% - 8px);
+      padding:24px;
+      border-radius:12px;
+      box-shadow:0 1px 12px -10px #000;
+      background:#fff;
+      .history_tit {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        margin-bottom:24px;
+        h4 {
+          color:#1d1d1f;
+          font-size:16px;
+          font-weight:700;
+        }
+        .count {
+          display:inline-block;
+          margin-left:6px;
+          color:#f09f2c;
+        }
+        .item {
+          display:inline-flex;
+          align-items:center;
+          padding:0 8px;
+          font-size:14px;
+          &:after {
+            content:'';
+            display:inline-block;
+            margin-left:4px;
+            width:14px;
+            height:14px;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14' fill='none'%3E%3Cpath d='M5.83301 9.91659L8.74967 6.99992L5.83301 4.08325' stroke='%23234C7D' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center no-repeat;
+          }
+        }
+      }
+      .list_box {
+        .list_item {
+          &+.list_item {
+            margin-top:10px;
+          }
+        }
+      }
+    }
+  }
+  // 초대하기
+  .invite_box {
+    margin-top:60px;
+    text-align:center;
+    .invite_txt {
+        margin-bottom:24px;
+      color:#1d1d1f;
+      font-size:16px;
+      text-align:center;
+    }
+    .btn_link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 34px;
+        padding: 0 24px;
+        color: #fff;
+        font-size: 14px;
+        border: 1px solid var(--primary-30);
+        border-radius: 4px;
+        background: var(--primary-30);
+    }
+  }
+  .btn_logout {
+    display:block;
+    margin-top:40px;
+    width:100%;
+    font-size:14px;
+    text-align:center;
+  }
+}
+
+
+@media screen and (max-width:1080px) {
+  .profile_wrap {
+    padding:0 0 120px;
+    // 정보
+    .user_info {
+        .info_name {
+            .name {
+                font-size:16px;
+            }
+        }
+      .info_desc {
+        margin:12px 0 24px;
+          padding:12px;
+        li {
+          span {
+            font-size:12px;
+            &.count {
+              font-size:12px;
+            }
+          }
+        }
+      }
+        .info_visit {
+            font-size:12px;
+        }
+    }
+    // 출석체크
+    .user_daily {
+        margin:40px 0;
+          .daily_tit {
+            font-size:14px;
+          }
+        .daily_list {
+            margin-top:16px;
+            li {
+                .day {
+                    width:30px;
+                    height:30px;
+                    font-size:12px;
+                    &.check {
+                        &:after {
+                            background-size:14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 히스토리
+    .user_history {
+      display:block;
+      .history_box {
+        width:100%;
+        padding:12px;
+        .history_tit {
+          margin-bottom:16px;
+          h4 {
+            font-size:14px;
+          }
+          .item {
+            font-size:12px;
+          }
+        }
+        &+.history_box {
+          margin-top:16px;
+        }
+      }
+    }
+
+    // 초대하기
+    .invite_box {
+      .invite_txt {
+        font-size:12px;
+      }
+    }
+  }
+
+}
