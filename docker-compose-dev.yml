@@ -1,0 +1,23 @@
+#version: '3' # docker-compose v2.25.0 이상부터는 적을 필요 없어짐 (version is obsolete)
+services:
+  app:
+    container_name: npm
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "81:81"
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+  back:
+    container_name: app
+#    build:
+#      context: back/
+#      dockerfile: Dockerfile
+    environment:
+      - PROFILE=dev
+    image: pyoun820/memebook
+    ports:
+      - "8080:8080"
