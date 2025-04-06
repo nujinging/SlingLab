@@ -94,7 +94,7 @@ const Main = ({userIdx}) => {
       }
     }
   }
-    // 단어 검색
+  // 단어 검색
   const wordSearchApi = debounce((event) => {
     const value = event.target.value;
     setSearchText(value);
@@ -113,7 +113,7 @@ const Main = ({userIdx}) => {
           <CountryChoice countryChoiceClose={countryChoiceClose}></CountryChoice>
         )
       }
-            {
+      {
         nicknameModalOpen && (
           <NickName nickNameAdd={nickNameClose} nickNameInput={nickNameValue}></NickName>
         )
@@ -122,61 +122,72 @@ const Main = ({userIdx}) => {
 
       <div className="main_wrap">
 
-        <div className="container">
-         <div className="main_top">
-           <div className="main_country">
-             <p className="main_tit">Let's Find Your Words!</p>
-             {
-               studyCountryType === '' && (
-                 <span className="badge_country">언어 선택 하셨나요?</span>
-               )
-             }
-             <button type="button" className={`user_country ${studyCountryType}`} onClick={countryChoiceClose}>
-               <span className="blind">나라 선택</span>
-             </button>
-           </div>
+        <div className="main_top">
+          <div className="container">
+            <div className="main_country">
+              {
+                studyCountryType === '' && (
+                  <span className="badge_country">언어 선택 하셨나요?</span>
+                )
+              }
+              <button type="button" className={`user_country ${studyCountryType}`} onClick={countryChoiceClose}>
+                <span className="blind">나라 선택</span>
+              </button>
+              <p className="main_tit">Let's Find Your Words!</p>
+            </div>
+            {
+              nicknameSave && (
+                <>{nicknameSave}님<br/></>
+              )
+            }
+            <div className="search_box">
+              <input type="text" className="text_input" placeholder="단어를 검색해보세요" onChange={wordSearchApi}
+                     onKeyDown={wordSearchKey}/>
+              {
+                searchState && (
+                  <ul className="search_list" ref={resultRef}>
+                    {
+                      wordSearch?.wordList.length === 0 && (
+                        <li className="list_none">
+                          검색에 맞는 단어가 없어요
+                        </li>
+                      )
+                    }
+                    {
+                      wordSearch?.wordList.length > 0 && wordSearch?.wordList.map((item, idx) => {
+                        return (
+                          <li key={idx}>
+                            <Link to={`/vocabulary/wordInfo/${item.wordIdx}`}>
+                              {item.wordName}
+                            </Link>
+                          </li>
+                        )
+                      })
+                    }
+                  </ul>
+                )
+              }
+            </div>
+          </div>
 
+        </div>
 
-           {
-             nicknameSave && (
-               <>{nicknameSave}님<br/></>
-             )
-           }
-           <div className="search_box">
-             <input type="text" className="text_input" placeholder="단어를 검색해보세요" onChange={wordSearchApi} onKeyDown={wordSearchKey}/>
-             {
-               searchState && (
-                 <ul className="search_list" ref={resultRef}>
-                   {
-                     wordSearch?.wordList.length === 0 && (
-                       <li className="list_none">
-                         검색에 맞는 단어가 없어요
-                       </li>
-                     )
-                   }
-                   {
-                     wordSearch?.wordList.length > 0 && wordSearch?.wordList.map((item, idx) => {
-                       return (
-                         <li key={idx}>
-                           <Link to={`/vocabulary/wordInfo/${item.wordIdx}`}>
-                             {item.wordName}
-                           </Link>
-                         </li>
-                       )
-                     })
-                   }
-                 </ul>
-               )
-             }
-           </div>
-         </div>
+        <div className="main_intro">
+          <div className="container">
+            <div className="intro_txt">
+              <p className="txt">
+                <strong>지금 외운 단어, 내일의 대화가 됩니다.</strong>
+                언제 어디서든, 단어에 푹 빠지는 시간
+              </p>
+              <Link className="intro_link">
+                더 알아보기
+              </Link>
+            </div>
+          </div>
+        </div>
 
-          {/*<div className="main_banner">*/}
-          {/*  광고*/}
-          {/*</div>*/}
-
-          <div className="main_con">
-
+        <div className="main_con">
+          <div className="container">
             <div className="main_popular">
               <h3 className="popular_tit">💡 오늘 하루 인기 검색어 TOP </h3>
               <ul className="popular_list">
@@ -243,8 +254,6 @@ const Main = ({userIdx}) => {
                 }
               </ul>
             </div>
-
-
             <div className="main_check">
               <h3 className="check_tit">📖 나의 히스토리 </h3>
               <ul className="check_list">
@@ -347,8 +356,23 @@ const Main = ({userIdx}) => {
               </ul>
             </div>
           </div>
-
         </div>
+
+        <div className="main_voca">
+          <div className="container">
+            <div className="voca_txt">
+              <p className="txt">
+                <strong>지금 외운 단어, 내일의 대화가 됩니다.</strong>
+                언제 어디서든, 단어에 푹 빠지는 시간
+              </p>
+              <Link className="voca_link">
+                더 알아보기
+              </Link>
+            </div>
+          </div>
+        </div>
+
+
       </div>
 
     </>
