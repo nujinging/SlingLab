@@ -2,13 +2,13 @@
 .main_wrap {
   position:relative;
   min-height:100vh;
-  padding:60px 0 120px;
+  padding:0 0 120px;
   /* 메인 상단 */
   .main_top {
     position:relative;
     width:100%;
     margin-left:auto;
-    padding:40px 20px 80px;
+    margin:160px 0;
     &:before {
       position:absolute;
       top:0;
@@ -96,6 +96,24 @@
       width:700px;
       margin:0 auto;
       z-index:1;
+    }
+    .keyword_box {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:0 16px;
+      margin-top:24px;
+      .keyword_link {
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        height:30px;
+        padding:0 16px;
+        color:#373f57;
+        font-size:14px;
+        border-radius:4px;
+        background:#f2f4fa;
+      }
     }
   }
 
@@ -353,7 +371,6 @@
   .main_wrap {
     padding:40px 0 80px;
     .container {
-      padding:0;
       &:before {
         top:0;
         left:140px;

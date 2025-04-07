@@ -168,7 +168,15 @@ const Main = ({userIdx}) => {
                 )
               }
             </div>
+
+            <div className="keyword_box">
+              <Link className="keyword_link">방배동</Link>
+              <Link className="keyword_link">젤라또</Link>
+              <Link className="keyword_link">센</Link>
+              <Link className="keyword_link">치히로</Link>
+            </div>
           </div>
+
 
         </div>
 
@@ -362,11 +370,11 @@ const Main = ({userIdx}) => {
           <div className="container">
             <div className="voca_txt">
               <p className="txt">
-                <strong>지금 외운 단어, 내일의 대화가 됩니다.</strong>
-                언제 어디서든, 단어에 푹 빠지는 시간
+                <strong>당신의 언어가 자라는 공간, 하루 한 단어부터.</strong>
+                언어는 기억이 되고, 기억은 당신이 됩니다.
               </p>
               <Link className="voca_link">
-                더 알아보기
+                지금 바로 단어 구경하러 가기
               </Link>
             </div>
           </div>
