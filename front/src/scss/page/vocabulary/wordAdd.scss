@@ -1,6 +1,7 @@
 .word_add_wrap {
   padding:0 20px 140px;
   .container {
+    width:800px;
     margin-top:40px;
   }
   .input_box {
@@ -15,6 +16,8 @@
 
   /* 하단 플로팅 버튼 */
   .floating_box {
+    display:flex;
+    justify-content:center;
     margin-top:16px;
     width: 100%;
     box-sizing: border-box;
@@ -24,14 +27,14 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width:100%;
+      width:320px;
       height: 40px;
       padding: 0 24px;
       color: #fff;
       font-size: 14px;
-      border: 1px solid var(--primary-30);
+      border: 1px solid #564297;
       border-radius: 4px;
-      background: var(--primary-30);
+      background:#564297;
   }
 
   /* 팁 */
